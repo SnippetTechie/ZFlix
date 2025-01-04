@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Amatic+SC:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.nav {
+    background-color: rgba(0, 0, 0, 0.804);
+    height: 100vh;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+    left: 0;
+    position: fixed;
+    font-size: 15px;
+    transform: translate(-120px);
+    transition: all 0.5s;
+    z-index: 5;
+}
+
+.nav a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.nav1 a {
+    text-decoration: none;
+    color: aquamarine;
+}
+
+.nav:hover {
+    transform: translate(0);
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 20px 10px 10px;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.886);
+    transition: background 0.5s;
+    cursor: pointer;
+}
+
+.icon:hover {
+    border-left: 3px solid green;
+    background-color: rgba(4, 24, 23, 0.804);
+}
+
+#main1 {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(20, 26, 28);
+    position: relative;
+
+}
+
+.backimg {
+    height: 90%;
+    width: 90%;
+    margin-left: 90px;
+    animation: autoRun 15s linear infinite;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 20px black, 2px 2px 20px rgb(46, 167, 104), 2px 2px 20px rgb(43, 169, 195), 2px 2px 20px rgb(223, 130, 201);
+    position: relative;
+}
+
+.bg {
+    background-color: rgba(0, 0, 0, 0.432);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    z-index: 3;
+}
+
+.write {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+
+.w1 {
+    color: white;
+    font-size: 40px;
+    text-shadow: 2px 2px 10px black, 2px 2px 10px aquamarine;
+}
+
+.w2 {
+    color: white;
+    font-size: 20px;
+}
+
+.w3 {
+    color: white;
+    font-size: 20px;
+}
+
+.write button {
+    height: 50px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    gap: 20px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: aquamarine;
+    box-shadow: 2px 2px 10px black;
+    cursor: pointer;
+}
+
+.write button:hover {
+    background-color: transparent;
+    box-shadow: 2px 2px 10px black, 2px 2px 10px aquamarine;
+    color: aquamarine;
+    border: 2px solid black;
+}
+
+.nav1 {
+    width: 100vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 5;
+    color: white;
+    top: 65px;
+    gap: 750px;
+
+}
+
+.logo span {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 45px;
+    color: aquamarine;
+    font-weight: 1000;
+}
+
+.nav1 button {
+    width: 100px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: aquamarine;
+    box-shadow: 2px 2px 10px black;
+    cursor: pointer;
+}
+
+.nav1 button:hover {
+    background-color: transparent;
+    box-shadow: 2px 2px 10px black, 2px 2px 10px aquamarine;
+    color: aquamarine;
+    border: 2px solid black;
+}
+
+#main2 {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(20, 26, 28);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.top {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.bottom {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
+
+.innercard {
+    height: 85%;
+    width: 15%;
+    position: relative;
+    background-image: url("action.jpeg");
+    background-size: 100% 100%;
+    border-radius: 12px;
+
+}
+
+.outercard {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(to right, rgb(77, 7, 72), rgb(20, 26, 28));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.825);
+    text-shadow: 2px 2px 10px rgb(77, 7, 72), 2px 2px 10px rgb(20, 26, 28);
+    border-radius: 12px;
+    transition: all 1s;
+}
+
+.icard2 {
+    background-image: url("drama.jpeg");
+}
+
+.ocard2 {
+    background: linear-gradient(to right, rgb(13, 7, 77), rgb(20, 26, 28));
+    text-shadow: 2px 2px 10px rgb(18, 7, 77), 2px 2px 10px rgb(20, 26, 28);
+}
+
+.icard3 {
+    background-image: url("horror.jpeg");
+}
+
+.ocard3 {
+    background: linear-gradient(to right, rgb(77, 7, 7), rgb(20, 26, 28));
+    text-shadow: 2px 2px 10px rgb(77, 7, 72), 2px 2px 10px rgb(20, 26, 28);
+}
+
+.icard4 {
+    background-image: url("romance.jpeg");
+}
+
+.ocard4 {
+    background: linear-gradient(to right, rgb(7, 77, 28), rgb(20, 26, 28));
+    text-shadow: 2px 2px 10px rgb(7, 77, 39), 2px 2px 10px rgb(20, 26, 28);
+}
+
+.icard5 {
+    background-image: url("crime.jpeg");
+}
+
+.ocard5 {
+    background: linear-gradient(to right, rgb(77, 62, 7), rgb(20, 26, 28));
+    text-shadow: 2px 2px 10px rgb(77, 74, 7), 2px 2px 10px rgb(20, 26, 28);
+}
+
+.icard6 {
+    background-image: url("anime.jpeg");
+}
+
+.ocard6 {
+    background: linear-gradient(to right, rgb(62, 77, 7), rgb(20, 26, 28));
+    text-shadow: 2px 2px 10px rgb(7, 77, 7), 2px 2px 10px rgb(20, 26, 28);
+}
+
+.outercard:hover {
+    transform: rotate(45deg);
+    transform-origin: left bottom;
+}
+
+#main3 {
+    width: 100vw;
+    height: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(20, 26, 28);
+    position: absolute;
+}
+
+#s1 {
+    width: 200px;
+    height: 200px;
+}
+
+#main3 input {
+    width: 50%;
+    height: 70px;
+    border: 2px solid black;
+    border-right: none;
+    border-radius: 20px 0px 0px 20px;
+    font-size: 20px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    color: black;
+    box-shadow: 2px 2px 10px rgb(77, 7, 7), 2px 2px 10px rgb(20, 26, 28);
+
+
+}
+
+#main3 button {
+    width: 15%;
+    height: 70px;
+    border: 2px solid black;
+    border-left: none;
+    border-radius: 0px 20px 20px 0px;
+    background: linear-gradient(to right, rgb(77, 7, 7), rgb(20, 26, 28));
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px rgb(77, 7, 7), 2px 2px 10px rgb(20, 26, 28);
+    color: rgba(255, 255, 255, 0.815);
+    transition: background 0.5s;
+    cursor: pointer;
+}
+
+#main3 button:hover {
+
+    background: linear-gradient(to left rgb(77, 7, 7), rgb(20, 26, 28));
+
+}
+
+@keyframes autoRun {
+    0% {
+        background-image: url("4.jpeg");
+    }
+
+    20% {
+        background-image: url("1.jpeg");
+    }
+
+    40% {
+        background-image: url("2.jpeg");
+    }
+
+    60% {
+        background-image: url("5.jpeg");
+    }
+
+    80% {
+        background-image: url("3.jpeg");
+    }
+
+    100% {
+        background-image: url("6.jpeg");
+    }
+}
