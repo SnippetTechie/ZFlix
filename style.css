@@ -216,7 +216,7 @@ html {
     height: 85%;
     width: 15%;
     position: relative;
-    background-image: url("action.jpeg");
+    background-image: url("Images/action.jpeg");
     background-size: 100% 100%;
     border-radius: 12px;
 
@@ -238,7 +238,7 @@ html {
 }
 
 .icard2 {
-    background-image: url("drama.jpeg");
+    background-image: url("Images/drama.jpeg");
 }
 
 .ocard2 {
@@ -247,7 +247,7 @@ html {
 }
 
 .icard3 {
-    background-image: url("horror.jpeg");
+    background-image: url("images/horror.jpeg");
 }
 
 .ocard3 {
@@ -256,7 +256,7 @@ html {
 }
 
 .icard4 {
-    background-image: url("romance.jpeg");
+    background-image: url("Images/romance.jpeg");
 }
 
 .ocard4 {
@@ -265,7 +265,7 @@ html {
 }
 
 .icard5 {
-    background-image: url("crime.jpeg");
+    background-image: url("Images/crime.jpeg");
 }
 
 .ocard5 {
@@ -274,7 +274,7 @@ html {
 }
 
 .icard6 {
-    background-image: url("anime.jpeg");
+    background-image: url("Images/anime.jpeg");
 }
 
 .ocard6 {
@@ -342,26 +342,26 @@ html {
 
 @keyframes autoRun {
     0% {
-        background-image: url("4.jpeg");
+        background-image: url("images/4.jpeg");
     }
 
     20% {
-        background-image: url("1.jpeg");
+        background-image: url("Images/1.jpeg");
     }
 
     40% {
-        background-image: url("2.jpeg");
+        background-image: url("Images/2.jpeg");
     }
 
     60% {
-        background-image: url("5.jpeg");
+        background-image: url("Images/5.jpeg");
     }
 
     80% {
-        background-image: url("3.jpeg");
+        background-image: url("Images/3.jpeg");
     }
 
     100% {
-        background-image: url("6.jpeg");
+        background-image: url("Images/6.jpeg");
     }
 }
